@@ -3,10 +3,6 @@
 Student Enrollment Form is a web application designed to simplify the process of enrolling students in an educational institution. This app provides an intuitive interface for capturing essential student information during the enrollment process.
 
 
-#
-#
-#
-
 
 # BENEFITS OF USING JSONPOWERDB
 
