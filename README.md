@@ -32,5 +32,5 @@ Student Enrollment Form is a web application designed to simplify the process of
 
 # SCREENSHOT OF FORM 
 
-![PC1]("C:\Stu_form\Student_Form\screenshot\sc1.png")
+![PC1](C:\Stu_form\Student_Form\screenshot\sc1.png)
 
