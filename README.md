@@ -26,11 +26,11 @@ Student Enrollment Form is a web application designed to simplify the process of
 
 # Technologies Used 
 
-+ Client: HTML,CSS, bootstrap, Javascript
-+ Server: JsonPowerDB
-+ IDE : NetBeans
++ **Client:** HTML,CSS, bootstrap, Javascript
++ **Server:** JsonPowerDB
++ **IDE :** NetBeans
 
 # SCREENSHOT OF FORM 
 
-![http:/../Stu_form/Student_Form/screenshot/sc1.png]
+![PC1](https://i.ibb.co/MnTPjzC/sc1.png)
 
