@@ -84,9 +84,9 @@ function createPUTRequest(connToken, jsonObj, dbName, relName) {
 
 # SCREENSHOT OF FORM 
 
-![PC1](https://drive.google.com/file/d/1U11zGAXLuOUkPT5Qiz6RSV07MTfpXpwb/view?usp=drive_link)
+![PC1](https://ibb.co/LSWfTxw)
 
 # SCREENSHOT OF JPDB
 
-![PC2](file:///C:/Stu_form/Student_Form/screenshot/sc2.png)
+![PC2](https://ibb.co/VxwmrKD)
 
