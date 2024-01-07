@@ -40,9 +40,53 @@ Student Enrollment Form is a web application designed to simplify the process of
 + **IDE :** NetBeans
 
 
+#### Create a PUT Request String
+
+```
+var baseUrl = "http://api.login2explore.com:5577";
+function executeCommand(reqString, apiEndPointUrl) {
+    var url = baseUrl + apiEndPointUrl;
+    var jsonObj;
+    
+    $.post(url, reqString, function (result) {
+        jsonObj = JSON.parse(result);
+    }).fail(function (result) {
+        var dataJsonObj = result.responseText;
+        jsonObj = JSON.parse(dataJsonObj);
+    });
+    return jsonObj;
+}
+```
+
+
+
+
+```
+function createPUTRequest(connToken, jsonObj, dbName, relName) {
+    var putRequest = "{\n"
+            + "\"token\" : \""
+            + connToken
+            + "\","
+            + "\"dbName\": \""
+            + dbName
+            + "\",\n" + "\"cmd\" : \"PUT\",\n"
+            + "\"rel\" : \""
+            + relName + "\","
+            + "\"jsonStr\": \n"
+            + jsonObj
+            + "\n"
+            + "}";
+    return putRequest;
+}
+
+```
 
 
 # SCREENSHOT OF FORM 
 
-![PC1](file:///C:/Stu_form/Student_Form/screenshot/sc1.png)
+![PC1](https://drive.google.com/file/d/1U11zGAXLuOUkPT5Qiz6RSV07MTfpXpwb/view?usp=drive_link)
+
+# SCREENSHOT OF JPDB
+
+![PC2](file:///C:/Stu_form/Student_Form/screenshot/sc2.png)
 
