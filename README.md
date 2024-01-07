@@ -1,6 +1,8 @@
+
 # STUDENT ENROLLMENT FORM
 
 Student Enrollment Form is a web application designed to simplify the process of enrolling students in an educational institution. This app provides an intuitive interface for capturing essential student information during the enrollment process.
+
 
 
 
@@ -9,6 +11,8 @@ Student Enrollment Form is a web application designed to simplify the process of
 - User-friendly Form: Easily fill out the enrollment form with required details.
 - Validation: Real-time validation to ensure accurate and complete information.
 - Submit Form: Submit the form data to the server for processing.
+- Free from technology constraints - Low-Code and easy to use from any technology via HTTP Rest AP.
+- Helps developers in managing their databases using various tools and techniques.
 
 
 
@@ -38,7 +42,14 @@ Student Enrollment Form is a web application designed to simplify the process of
 + **IDE :** NetBeans
 
 
-#### Create a PUT Request String
+## Release History
+### JsonPowerDB
+**Version:** 2.0
+#### Execute API
+
+
+
+
 
 ```
 var baseUrl = "http://api.login2explore.com:5577";
@@ -57,7 +68,7 @@ function executeCommand(reqString, apiEndPointUrl) {
 ```
 
 
-
+#### Create a PUT Request String
 
 ```
 function createPUTRequest(connToken, jsonObj, dbName, relName) {
